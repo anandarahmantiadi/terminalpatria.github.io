@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Terminal Patria</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; }
+    header, footer { background-color: #0A2647; color: white; padding: 1em; text-align: center; }
+    nav { background: #144272; padding: 1em; text-align: center; }
+    nav a { color: white; margin: 0 15px; text-decoration: none; }
+    section { padding: 2em; }
+    .galeri img { width: 200px; margin: 10px; border-radius: 10px; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Terminal Tipe A Patria</h1>
+  <p>Portal Informasi Resmi Terminal</p>
+</header>
+
+<nav>
+  <a href="#sambutan">Beranda</a>
+  <a href="#profil">Profil</a>
+  <a href="#layanan">Layanan</a>
+  <a href="#galeri">Galeri</a>
+  <a href="#kontak">Kontak</a>
+</nav>
+
+<section id="sambutan">
+  <h2>Sambutan</h2>
+  <p>Selamat datang di website Terminal Patria. Website ini dibuat sebagai pusat informasi layanan terminal yang terintegrasi dan dapat diakses oleh masyarakat.</p>
+</section>
+
+<section id="profil">
+  <h2>Profil Terminal</h2>
+  <p>Terminal Tipe A Patria merupakan terminal penumpang utama yang melayani berbagai rute angkutan antar kota antar provinsi dan antar kota dalam provinsi.</p>
+</section>
+
+<section id="layanan">
+  <h2>Layanan</h2>
+  <ul>
+    <li>Informasi Jadwal Keberangkatan</li>
+    <li>Fasilitas Penumpang (Musholla, Toilet, Ruang Tunggu)</li>
+    <li>Area Parkir dan Loket Tiket</li>
+    <li>Informasi Layanan Angkutan Umum</li>
+  </ul>
+</section>
+
+<section id="galeri" class="galeri">
+  <h2>Galeri</h2>
+  <img src="https://via.placeholder.com/200x150?text=Foto+1" alt="Galeri 1">
+  <img src="https://via.placeholder.com/200x150?text=Foto+2" alt="Galeri 2">
+  <img src="https://via.placeholder.com/200x150?text=Foto+3" alt="Galeri 3">
+</section>
+
+<section id="kontak">
+  <h2>Kontak Kami</h2>
+  <p>Alamat: Terminal Tipe A Patria, Blitar</p>
+  <p>WhatsApp: <a href="https://wa.me/6281234567890">0812-3456-7890</a></p>
+  <p>Email: info@terminalpatria.id</p>
+</section>
+
+<footer>
+  <p>© 2025 Terminal Patria. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
